@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ngocpm.TestFromHoTro">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="testFacebookLogin"/>
+          <include name="openChrome"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestFromHoTro -->
+      <class name="com.ngocpm.TestMenuTuyenSinh">
+        <methods>
+          <include name="openChrome"/>
+          <include name="testFacebookLogin"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestMenuTuyenSinh -->
+      <class name="com.ngocpm.TestMenuHDSV">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="openChrome"/>
+          <include name="testFacebookLogin"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestMenuHDSV -->
+      <class name="com.ngocpm.TestSearch">
+        <methods>
+          <include name="openChrome"/>
+          <include name="closeDriver"/>
+          <include name="testFacebookLogin"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestSearch -->
+      <class name="com.ngocpm.TestTittle">
+        <methods>
+          <include name="testTittle1"/>
+          <include name="testTittle2"/>
+          <include name="openChrome"/>
+          <include name="testTittle3"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestTittle -->
+      <class name="com.ngocpm.TestMenuDangKyHoc">
+        <methods>
+          <include name="openChrome"/>
+          <include name="closeDriver"/>
+          <include name="testFacebookLogin"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestMenuDangKyHoc -->
+      <class name="com.ngocpm.TestHoverCNTT">
+        <methods>
+          <include name="testFacebookLogin"/>
+          <include name="closeDriver"/>
+          <include name="openChrome"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestHoverCNTT -->
+      <class name="com.ngocpm.TestFooterColor">
+        <methods>
+          <include name="openChrome"/>
+          <include name="closeDriver"/>
+          <include name="testFooterColor1"/>
+          <include name="testFooterColor2"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestFooterColor -->
+      <class name="com.ngocpm.TestFormDKTT">
+        <methods>
+          <include name="testFacebookLogin"/>
+          <include name="closeDriver"/>
+          <include name="openChrome"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestFormDKTT -->
+      <class name="com.ngocpm.TestFooterbackbroud">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="testFooterbackbroud2"/>
+          <include name="openChrome"/>
+          <include name="testFooterbackbroud1"/>
+        </methods>
+      </class> <!-- com.ngocpm.TestFooterbackbroud -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
